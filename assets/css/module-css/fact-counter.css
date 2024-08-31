@@ -1,0 +1,158 @@
+/*=============================
+	Fact Counter One Css
+===============================*/
+.fact-counter-one {
+    position: relative;
+    display: block;
+    padding: 0px 0px 90px;
+    z-index: 1;
+}
+
+.fact-counter-one__single {
+    position: relative;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.fact-counter-one__single-inner {
+    position: relative;
+    display: block;
+    background: var(--thm-black-bg);
+    padding: 32px 30px 30px;
+    border-radius: 5px;
+}
+
+.fact-counter-one__single-inner .icon {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    right: 30px;
+    width: 65px;
+    height: 65px;
+    background-color: var(--thm-secondary-color);
+    border-radius: 0px 0px 5px 5px;
+}
+
+.fact-counter-one__single-inner .icon span {
+    position: relative;
+    display: inline-block;
+    color: var(--thm-white);
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 400;
+    transition-delay: 0.1s;
+    transition: all 500ms ease;
+}
+
+.fact-counter-one__single:hover .fact-counter-one__single-inner .icon span {
+    transform: rotateY(180deg);
+    transition-delay: 0.1s;
+}
+
+.fact-counter-one__single-inner .outer-box {
+    position: relative;
+    display: block;
+}
+
+.fact-counter-one__single-inner .outer-box .outer-box__inner {
+    position: relative;
+    display: flex;
+    align-items: center;
+    line-height: 0;
+}
+
+.fact-counter-one__single-inner .outer-box h2 {
+    position: relative;
+    color: transparent;
+    width: fit-content;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px var(--thm-white);
+    font-size: 48px;
+    line-height: 50px;
+    font-family: var(--thm-heading-font-family);
+}
+
+.fact-counter-one__single-inner .outer-box .title {
+    position: relative;
+    display: block;
+    padding-top: 9px;
+}
+
+.fact-counter-one__single-inner .outer-box .title p {
+    color: var(--thm-body-font-color);
+    margin: 0;
+}
+
+/*=============================
+	Fact Counter Two Css
+===============================*/
+.fact-counter-two {
+    position: relative;
+    display: block;
+    z-index: 1;
+}
+
+.fact-counter-two__single {
+    position: relative;
+    display: block;
+    margin-bottom: 30px;
+    padding-left: 25px;
+}
+
+.fact-counter-two__single .icon {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    background: var(--thm-primary-color);
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+.fact-counter-two__single .icon span {
+    position: relative;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 30px;
+    transition-delay: 0.1s;
+    transition: all 500ms ease;
+}
+
+.fact-counter-two__single:hover .icon span {
+    transform: rotateY(180deg);
+    transition-delay: 0.1s;
+}
+
+.fact-counter-two__single-inner {
+    position: relative;
+    display: block;
+    background: var(--thm-black-bg);
+    padding: 27px 10px 25px;
+    padding-left: 50px;
+    border-radius: 5px;
+}
+
+.fact-counter-two__single-inner .text-box {
+    position: relative;
+    display: block;
+}
+
+.fact-counter-two__single-inner .text-box .count {
+    color: var(--thm-white);
+    font-size: 48px;
+    line-height: 50px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.fact-counter-two__single-inner .text-box p {
+    margin: 0;
+}

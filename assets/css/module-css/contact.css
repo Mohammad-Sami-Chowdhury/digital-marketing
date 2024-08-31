@@ -1,0 +1,389 @@
+/*======================================
+Contact One Css
+========================================*/
+.contact-one {
+    position: relative;
+    display: block;
+    background: var(--thm-body-background);
+    padding: 180px 0px 180px;
+    z-index: 1;
+}
+
+.contact-one__bg {
+    position: absolute;
+    top: 120px;
+    left: 0;
+    bottom: 120px;
+    right: 0;
+    width: calc((100% - -230px) / 2);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    z-index: 1;
+}
+
+.contact-one__inner {
+    position: relative;
+    display: block;
+}
+
+.contact-one__form {
+    position: relative;
+    display: block;
+    max-width: 690px;
+    width: 100%;
+    background: var(--thm-black-bg);
+    padding: 60px 60px 60px;
+    border-radius: 5px;
+    float: right;
+    z-index: 1;
+}
+
+.contact-one__form .section-title {
+    padding-bottom: 29px;
+}
+
+.contact-one__form .input-box {
+    position: relative;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.contact-one__form .input-box .icon {
+    position: absolute;
+    top: 16px;
+    right: 20px;
+}
+
+.contact-one__form .input-box .icon span {
+    position: relative;
+    display: inline-block;
+    color: var(--thm-primary-color);
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.contact-one__form .input-box input[type="text"],
+.contact-one__form .input-box input[type="email"],
+.contact-one__form .input-box textarea {
+    position: relative;
+    display: block;
+    background-color: transparent;
+    width: 100%;
+    height: 60px;
+    border: 1px solid #424244;
+    color: var(--thm-pragraph-color);
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    transition: all 500ms ease;
+    font-family: var(--thm-body-font-family);
+    outline: none;
+}
+
+.contact-one__form .input-box textarea {
+    width: 100%;
+    height: 130px;
+    padding-top: 18px;
+    outline: none;
+    resize: none;
+}
+
+.contact-one__form form input[type="text"]::-webkit-input-placeholder {
+    color: var(--thm-pragraph-color);
+}
+
+.contact-one__form form input[type="text"]:-moz-placeholder {
+    color: var(--thm-pragraph-color);
+}
+
+.contact-one__form form input[type="text"]::-moz-placeholder {
+    color: var(--thm-pragraph-color);
+}
+
+.contact-one__form form input[type="text"]:-ms-input-placeholder {
+    color: var(--thm-pragraph-color);
+}
+
+.contact-one__form form input[type="email"]::-webkit-input-placeholder {
+    color: var(--thm-pragraph-color);
+}
+
+.contact-one__form form input[type="email"]:-moz-placeholder {
+    color: var(--thm-pragraph-color);
+}
+
+.contact-one__form form input[type="email"]::-moz-placeholder {
+    color: var(--thm-pragraph-color);
+}
+
+.contact-one__form form input[type="email"]:-ms-input-placeholder {
+    color: var(--thm-pragraph-color);
+}
+
+.contact-one__form form textarea::-webkit-input-placeholder {
+    color: var(--thm-pragraph-color);
+}
+
+.contact-one__form form textarea:-moz-placeholder {
+    color: var(--thm-pragraph-color);
+}
+
+.contact-one__form form textarea::-moz-placeholder {
+    color: var(--thm-pragraph-color);
+}
+
+.contact-one__form form textarea:-ms-input-placeholder {
+    color: var(--thm-pragraph-color);
+}
+
+.contact-one__form-btn {
+    position: relative;
+    display: block;
+    margin-top: 0px;
+}
+
+.contact-one__form-btn button {
+    width: 100%;
+    border: none;
+}
+
+.contact-one__form-btn button.btn-one {
+    width: 100%;
+    justify-content: center;
+}
+
+/*======================================
+Contact Page Css
+========================================*/
+.contact-page {
+    position: relative;
+    display: block;
+    padding: 120px 0px 120px;
+    z-index: 1;
+}
+
+.contact-page__form {
+    position: relative;
+    display: block;
+    margin-right: 20px;
+}
+
+.contact-page__form .title-box {
+    position: relative;
+    display: block;
+    margin-bottom: 29px;
+}
+
+.contact-page__form .title-box h2 {
+    color: var(--thm-white);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    text-transform: capitalize;
+}
+
+.contact-page__form .input-box {
+    position: relative;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.contact-page__form .input-box input[type="text"],
+.contact-page__form .input-box input[type="email"],
+.contact-page__form .input-box input[type="number"],
+.contact-page__form .input-box textarea {
+    position: relative;
+    display: block;
+    background-color: var(--thm-black-bg);
+    width: 100%;
+    height: 70px;
+    border: none;
+    color: var(--thm-body-font-color);
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 30px;
+    padding-right: 20px;
+    border-radius: 5px;
+    transition: all 500ms ease;
+    font-family: var(--thm-font);
+    outline: none;
+}
+
+.contact-page__form .input-box textarea {
+    width: 100%;
+    height: 200px;
+    padding-top: 23px;
+    outline: none;
+    resize: none;
+}
+
+.contact-page__form form input[type="text"]::-webkit-input-placeholder {
+    color: var(--thm-body-font-color);
+}
+
+.contact-page__form form input[type="text"]:-moz-placeholder {
+    color: var(--thm-body-font-color);
+}
+
+.contact-page__form form input[type="text"]::-moz-placeholder {
+    color: var(--thm-body-font-color);
+}
+
+.contact-page__form form input[type="text"]:-ms-input-placeholder {
+    color: var(--thm-body-font-color);
+}
+
+.contact-page__form form input[type="email"]::-webkit-input-placeholder {
+    color: var(--thm-body-font-color);
+}
+
+.contact-page__form form input[type="email"]:-moz-placeholder {
+    color: var(--thm-body-font-color);
+}
+
+.contact-page__form form input[type="email"]::-moz-placeholder {
+    color: var(--thm-body-font-color);
+}
+
+.contact-page__form form input[type="email"]:-ms-input-placeholder {
+    color: var(--thm-body-font-color);
+}
+
+.contact-page__form form textarea::-webkit-input-placeholder {
+    color: var(--thm-body-font-color);
+}
+
+.contact-page__form form textarea:-moz-placeholder {
+    color: var(--thm-body-font-color);
+}
+
+.contact-page__form form textarea::-moz-placeholder {
+    color: var(--thm-body-font-color);
+}
+
+.contact-page__form form textarea:-ms-input-placeholder {
+    color: var(--thm-body-font-color);
+}
+
+.contact-page__form-btn {
+    position: relative;
+    display: block;
+    margin-top: 0px;
+}
+
+.contact-page__form-btn button {
+    border: none;
+}
+
+.contact-page__contact-info {
+    position: relative;
+    display: block;
+}
+
+.contact-page__contact-info .title-box {
+    position: relative;
+    display: block;
+}
+
+.contact-page__contact-info .title-box h2 {
+    color: var(--thm-white);
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.contact-page__contact-info .title-box p {
+    margin: 0;
+}
+
+.contact-page__contact-info ul {
+    position: relative;
+    display: block;
+    margin-top: 28px;
+}
+
+.contact-page__contact-info ul li {
+    position: relative;
+    display: block;
+    padding-left: 80px;
+    margin-bottom: 28px;
+}
+
+.contact-page__contact-info ul li:last-child {
+    margin-bottom: 0;
+}
+
+.contact-page__contact-info ul li .icon-box {
+    position: absolute;
+    top: 7px;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background: var(--thm-primary-color);
+    border-radius: 50%;
+}
+
+.contact-page__contact-info ul li .icon-box span {
+    position: relative;
+    display: inline-block;
+    color: var(--thm-white);
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.contact-page__contact-info ul li .text-box {
+    position: relative;
+    display: block;
+}
+
+.contact-page__contact-info ul li .text-box h3 {
+    color: var(--thm-white);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    margin-bottom: 8px;
+}
+
+.contact-page__contact-info ul li .text-box p {
+    margin: 0;
+}
+
+.contact-page__contact-info ul li .text-box p a {
+    color: var(--thm-paragraph-color);
+}
+
+.contact-page__contact-info ul li .text-box p a:hover {
+    color: var(--thm-primary-color);
+}
+
+
+/*======================================
+    Google Map One
+========================================*/
+.google-map-one {
+    position: relative;
+    display: block;
+    z-index: 1;
+}
+
+.google-map-one__map {
+    position: relative;
+    display: block;
+    border: none;
+    height: 100%;
+    height: 450px;
+    width: 100%;
+    filter: grayscale(100%) invert(92%) contrast(83%);
+}
